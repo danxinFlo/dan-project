@@ -1,0 +1,39 @@
+#back-box{width: 100%;background: #f5f5f5;padding-bottom: 80px;}
+#main-list-box{width: 1090px;margin: auto;border:1px solid #f5f5f5;
+    .list-title-box{width: 1090px;height: 12px;padding: 24px 0;
+        span{font-size: 14px;}
+    }
+    .list-content-box{width: 1010px;padding: 0 40px;background:white;
+        span{font-size: 14px;}
+        .content-leader-box{width: 1010px;height: 108px;margin-top: 10px;
+            .fenlei-box{width: 1010px;height: 34px;padding-top:20px;border-bottom:2px dashed #f5f5f5;}
+            .paixu-box{width: 1010px;height: 14px;padding: 20px 0;}
+        }
+        .content-box{width: 1020px;height: 1233px;
+            .box1{width: 245px;height: 361px;float: left;
+                 img{width: 245px;height: 245px;background: #f4f4f4;}
+                .box1-2{width: 245px;height: 99px;
+                    .box1-2-1{width: 200px;height: 20px;margin: 0 22.5px 3px 22.5px;text-align: center;}
+                    .box1-2-2{width: 225px;height: 20px;padding: 0 10px;margin-bottom: 4px;text-align: center;}
+                    .box1-2-3{width: 245px;height: 22px;text-align: center;}
+                    .box1-2-4{width: 245px;height: 30px;}
+                }
+            }
+        }
+        .other-content-box{width: 1010px;height: 361px;
+            .other-title{width: 1010px;height: 26.4px;margin-bottom: 10px;font-size: 18px;font-weight: 400;}
+            .other-ul{width: 1020px;height: 245px;
+                li{width: 330px;margin-right: 10px;float:left;height: 245px;
+                    .more-a1{display: block;width: 320px;height: 188px;margin-bottom: 12px;}
+                    .more-title{display: block;width: 320px;height: 17.6px;line-height: 18px;font-size: 18px;color: #333;margin-bottom: 7px;}
+                    .more-message{width: 320px;height: 20px;font-size: 14px;color: #ccc;}
+                }
+            }
+        }
+    }
+    .list-more-box{width: 1090px;height: 371px;margin-top:20px;background: white;
+        .list-more-title{width: 1090px;height: 52px;
+            h3{font-size: 24px;font-weight: 400;padding-left: 50px;width: 1040px;margin-top: 12px;height: 40px;line-height: 40px}
+        }
+    }
+}

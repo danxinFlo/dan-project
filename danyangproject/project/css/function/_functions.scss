@@ -1,0 +1,20 @@
+
+@mixin trangle($dir:bottom,$width:20px,$color:black) {
+    width: 0;height:0;
+    border-style:solid;
+    border-width:$width;
+
+    @if $dir==bottom {
+        border-color:$color transparent transparent transparent;
+    }
+    @if $dir==top {
+        border-color:transparent transparent $color transparent;
+        
+    }
+    @if $dir==left {
+        border-color:transparent $color transparent transparent;
+    }
+    @if $dir==right{
+        border-color:transparent transparent transparent $color;
+    } 
+}
